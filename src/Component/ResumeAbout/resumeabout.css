@@ -1,0 +1,56 @@
+.resume__about{
+    padding: 20px ;
+    background-color: aliceblue;
+}
+
+.resume__abouttitle{
+    font-weight: 600;
+    font-size: 22px;
+    color: rgb(255, 0, 200);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.resume__abouttext{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(6, 6, 6, 0.367);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resume__aboutheading{
+    font-weight: 600;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 0, 200);
+}
+
+.resume__aboutinfo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+i{
+    color: blue;
+}
+
+.link{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: blue;
+}
+
+
+@media only screen and(max-width:375px){
+    .resume__about{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
